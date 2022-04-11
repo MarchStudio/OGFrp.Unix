@@ -1,1 +1,2 @@
-#define Arch "arm"
+#include <string>
+std::string Arch = "arm";

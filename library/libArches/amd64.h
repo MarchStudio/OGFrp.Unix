@@ -1,1 +1,2 @@
-#define Arch "amd64"
+#include <string>
+std::string Arch = "amd64";
