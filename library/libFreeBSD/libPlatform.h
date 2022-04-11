@@ -1,5 +1,6 @@
 #pragma once
-#define SubPlatform "FreeBSD"
+#include <string>
+std::string SubPlatform = "FreeBSD"
 
 #include <iostream>
 #include <unistd.h>

@@ -1,5 +1,6 @@
 #pragma once
-#define SubPlatform "Darwin"
+#include <string>
+std::string SubPlatform = "Darwin"
 
 #include <iostream>
 #include <unistd.h>
