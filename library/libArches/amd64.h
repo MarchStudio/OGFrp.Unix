@@ -1,0 +1,1 @@
+#define Arch "amd64"
