@@ -7,7 +7,7 @@
 #include <string>
 
 /// get executable path
-std::string get_cur_executable_path_() {
+std::string getExePath() {
     char* p = NULL;
 
     const int len = 256;

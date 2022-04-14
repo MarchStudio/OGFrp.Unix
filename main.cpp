@@ -3,6 +3,6 @@
 #include "work.cpp"
 
 int main() {
-    OGFrp ogfrp(get_cur_executable_path_(), Arch, SubPlatform);
+    OGFrp ogfrp(getExePath(), Arch, SubPlatform);
     return ogfrp.main();
 }
